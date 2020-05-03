@@ -42,7 +42,7 @@ QMK is developed and maintained by Jack Humbert of OLKB with contributions from 
 # How to update key map
 1. Modify key map definition file  
 Qwerty and Lower keymap is enough for custormize.  
-key code definition is [here](https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md)
+key code definition is [here](https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md).
 keyboards/helix/rev2/keymaps/mine/keymap.c
 1. Build and inject generated firmware
 sudo make helix:mine:avrudude
