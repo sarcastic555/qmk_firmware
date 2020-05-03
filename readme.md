@@ -36,9 +36,13 @@ QMK is developed and maintained by Jack Humbert of OLKB with contributions from 
 
 [qmk.fm](https://qmk.fm) is the official website of QMK, where you can find links to this page, the documentation, and the keyboards supported by QMK.
 
+# Initial setting
+./qmk_firmware/util/qmk_install.sh
+
 # How to update key map
-1. Modify key map definition file
+1. Modify key map definition file  
 Qwerty and Lower keymap is enough for custormize.  
+key code definition is [here](https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md)
 keyboards/helix/rev2/keymaps/mine/keymap.c
 1. Build and inject generated firmware
 sudo make helix:mine:avrudude
