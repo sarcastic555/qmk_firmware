@@ -40,13 +40,13 @@ QMK is developed and maintained by Jack Humbert of OLKB with contributions from 
 ./qmk_firmware/util/qmk_install.sh
 
 # How to update key map
-1. Modify key map definition file  
+## Modify key map definition file  
 ```
 keyboards/helix/rev2/keymaps/mine/keymap.c
 ```
 Qwerty and Lower keymap is enough for custormize.  
 key code definition is [here](https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md).  
-1. Build and inject generated firmware  
+## Build and inject generated firmware  
 ```
 sudo make helix:mine:avrudude
 ```
